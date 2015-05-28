@@ -76,12 +76,14 @@ request.get({url:url,encoding:null},function(error,response,buffer){
 var url= 'https://cdn.rawgit.com/59naga/fixture-images/master/animated.GIF';
 
 var xhr= new XMLHttpRequest;
-xhr.get('GET',url,true);
+xhr.open('GET',url,true);
 xhr.responseType= 'arraybuffer';
 xhr.send();
 
 xhr.onload= function(){
-  console.log(new Uint8Array(xhr.response));// [47,49,46,38,39,61,...]
+  var binary= new Uint8Array(xhr.response);
+  var blob= new Blob([binary],{type:'image/gif'});
+  window.open(URL.createObjectURL(blob));
 }
 </script>
 ```
