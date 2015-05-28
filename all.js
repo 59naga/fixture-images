@@ -1,4 +1,5 @@
 var fs= require('fs');
+var path= require('path');
 
 module.exports= {
   animated: {
@@ -16,6 +17,24 @@ module.exports= {
     bmp:  fs.readFileSync(__dirname+'/still.BMP'),
     psd:  fs.readFileSync(__dirname+'/still.PSD'),
     tif:  fs.readFileSync(__dirname+'/still.TIF'),
+  },
+  path: {
+    animated: {
+      gif:  path.join(__dirname,'animated.GIF'),
+      png:  path.join(__dirname,'animated.PNG'),
+      webp: path.join(__dirname,'animated.WEBP'),
+    },
+    still: {
+      gif:  path.join(__dirname,'still.GIF'),
+      png:  path.join(__dirname,'still.PNG'),
+      webp: path.join(__dirname,'still.WEBP'),
+
+      jpg:  path.join(__dirname,'still.JPG'),
+      jxr:  path.join(__dirname,'still.JXR'),
+      bmp:  path.join(__dirname,'still.BMP'),
+      psd:  path.join(__dirname,'still.PSD'),
+      tif:  path.join(__dirname,'still.TIF'),
+    },
   },
   http: {
     animated: {
