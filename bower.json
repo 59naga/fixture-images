@@ -1,0 +1,20 @@
+{
+  "name": "fixture-images",
+  "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPEG/JXR/PSD/TIFF",
+  "version": "0.0.0",
+  
+  "main": "all.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "all.js",
+    "test.js"
+  ],
+
+  "homepage": "https://github.com/59naga/fixture-images",
+  "authors": [
+    "59naga <i59naga@icloud.com>"
+  ],
+  "license": "MIT"
+}
