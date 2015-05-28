@@ -1,7 +1,7 @@
 {
   "name": "fixture-images",
   "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPEG/JXR/PSD/TIFF",
-  "version": "0.0.0",
+  "version": "0.0.1",
 
   "main": "all.js",
   "files": [

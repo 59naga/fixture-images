@@ -46,7 +46,7 @@ console.log(animated.gif);// [47,49,46,38,39,61,...]
 
 ## Via bower
 ```bash
-$ npm install fixture-images --save-dev
+$ bower install fixture-images --save-dev
 ```
 ```html
 <script src="/bower_components/fixture-images/all.min.js"></script>
