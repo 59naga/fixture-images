@@ -1,6 +1,6 @@
 {
   "name": "fixture-images",
-  "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPEG/JXR/PSD/TIFF",
+  "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPG/JXR/PSD/TIF",
   
   "main": "all.min.js",
   "ignore": [

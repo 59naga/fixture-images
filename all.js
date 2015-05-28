@@ -11,10 +11,10 @@ module.exports= {
     png:  fs.readFileSync(__dirname+'/still.PNG'),
     webp: fs.readFileSync(__dirname+'/still.WEBP'),
 
-    jpeg: fs.readFileSync(__dirname+'/still.JPEG'),
+    jpg:  fs.readFileSync(__dirname+'/still.JPG'),
     jxr:  fs.readFileSync(__dirname+'/still.JXR'),
     bmp:  fs.readFileSync(__dirname+'/still.BMP'),
     psd:  fs.readFileSync(__dirname+'/still.PSD'),
-    tiff: fs.readFileSync(__dirname+'/still.TIFF'),
+    tif:  fs.readFileSync(__dirname+'/still.TIF'),
   },
 };

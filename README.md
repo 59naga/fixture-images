@@ -17,9 +17,9 @@
 * `still.WEBP`
   
   ![](./still.WEBP)
-* `still.JPEG`
+* `still.JPG`
   
-  ![](./still.JPEG)
+  ![](./still.JPG)
 * `still.JXR(JPEG-XR)`
   
   ![](./still.JXR)
@@ -29,9 +29,9 @@
 * `still.PSD`
   
   ![](./still.PSD)
-* `still.TIFF`
+* `still.TIF`
   
-  ![](./still.TIFF)
+  ![](./still.TIF)
 
 # Usage
 ## Via npm

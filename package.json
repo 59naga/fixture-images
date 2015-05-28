@@ -1,7 +1,7 @@
 {
   "name": "fixture-images",
-  "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPEG/JXR/PSD/TIFF",
-  "version": "0.0.1",
+  "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPG/JXR/PSD/TIF",
+  "version": "0.0.0",
 
   "main": "all.js",
   "files": [
@@ -11,11 +11,11 @@
     "animated.WEBP",
     "still.BMP",
     "still.GIF",
-    "still.JPEG",
+    "still.JPG",
     "still.JXR",
     "still.PNG",
     "still.PSD",
-    "still.TIFF",
+    "still.TIF",
     "still.WEBP"
   ],
 
@@ -27,6 +27,7 @@
     "brfs": "^1.4.0",
     "browserify": "^10.2.1",
     "espower-loader": "^0.11.0",
+    "image-type": "^2.0.2",
     "mocha": "^2.2.5",
     "power-assert": "^0.11.0",
     "uglify-js": "^2.4.23"
