@@ -1,8 +1,11 @@
 {
   "name": "fixture-images",
   "description": "Animated GIF/PNG/WEBP and Static GIF/PNG/WEBP/BMP/JPG/JXR/PSD/TIF",
-  "version": "0.1.1",
+  "version": "0.1.2",
 
+  "browserify": {
+    "transform": "brfs"
+  },
   "main": "all.js",
   "files": [
     "all.js",
