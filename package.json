@@ -7,8 +7,10 @@
     "transform": "brfs"
   },
   "main": "all.js",
+  "types": "all.d.ts",
   "files": [
     "all.js",
+    "all.d.ts",
     "animated.GIF",
     "animated.PNG",
     "animated.WEBP",
